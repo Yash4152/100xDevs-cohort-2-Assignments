@@ -9,6 +9,7 @@ There is no automated test for this one, this is more for you to understand time
 */
 
 function calculateTime(n) {
+
     const start = new Date();
     let sum = 0;
     for (let i = 1; i <= n; i++) {
